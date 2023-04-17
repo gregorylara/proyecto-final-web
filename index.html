@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trivium Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/estilos.css" />
+</head>
+
+<!-- HEADER -->
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Trivium Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./fondos.html">Fondos</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- FIN HEADER -->
+
+
+<!-- CUERPO DE PAGINA -->
+<body class="text-bg-dark container-fluid contenedor">
+  <main>
+  <!-- CARUSEL -->
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators mb-0">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <picture>
+          <source srcset="./images/triviumstart.jpg" media="(min-width: 1024px)">
+          <source srcset="./images/triviumend.jpg" media="(min-width: 768px)">
+          <source srcset="./images/album/album4.jpg" media="(min-width: 377px)">
+        <img class="img-fluid" width="100%" src="./images/album/album9.jpg" alt="album" />
+        </picture>
+        <div class="container mb-0">
+          <div class="carousel-caption etiqueta">
+            <h1>Nuevo Album</h1>
+            <p>Ya disponible en Spotify</p>
+            <a class="btn btn-lg miBotonC" href="https://open.spotify.com/album/0mrtkWYrUzTuFwyiiQPdQs" target="_blank"
+              rel="noopener noreferrer">Ir a Spotify</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <picture>
+          <source srcset="./images/triviumend.jpg" media="(min-width: 1024px)">
+          <source srcset="./images/triviumend.jpg" media="(min-width: 768px)">
+          <source srcset="./images/album/album1.jpg" media="(min-width: 377px)">
+        <img class="img-fluid" width="100%" src="./images/album/album7.jpg" alt="album" />
+        <div class="container mb-0">
+          <div class="carousel-caption etiqueta">
+            <h2>Nuevos Videos</h2>
+            <p>Mira nuestros videos en Youtube</p>
+            <a class="btn btn-lg miBotonC" href="https://www.youtube.com/watch?v=IIvSXocE6YY" target="_blank"
+              rel="noopener noreferrer">Ir a Mirar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <div class="row">
+      <hr class="mb-4">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="./images/mattindex1.jpg" alt="Generic placeholder image" width="140" height="140">
+        <h3>Matt Heafy</h3>
+        <blockquote class="twitter-tweet" data-lang="es" data-theme="dark">
+          <p lang="en" dir="ltr">Starting today, we’ll be raising $500,000 for The Arnold Palmer Hospital for Children.
+            With a $25 chance-to-win card purchase, you will receive this art card and a chance to win 1 of my signature
+            Epiphone MKH guitars. 1000 chances, 4x a year, for 5 years. <a
+              href="https://t.co/dWTp2GiYry">https://t.co/dWTp2GiYry</a> <a
+              href="https://t.co/Rh9kIBg6tJ">pic.twitter.com/Rh9kIBg6tJ</a></p>&mdash; Matthew kiichichaos Heafy
+          (@matthewkheafy) <a href="https://twitter.com/matthewkheafy/status/1117775965000744969?ref_src=twsrc%5Etfw">15
+            de abril de 2019</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="./images/paoloindex1.jpg" alt="Generic placeholder image" width="140"
+          height="140">
+        <h4>Paolo Gregoletto</h4>
+        <blockquote class="twitter-tweet" data-lang="es" data-theme="dark">
+          <p lang="en" dir="ltr">Don’t miss the side shows with <a
+              href="https://twitter.com/AmonAmarthBand?ref_src=twsrc%5Etfw">@AmonAmarthBand</a> <a
+              href="https://twitter.com/TriviumOfficial?ref_src=twsrc%5Etfw">@TriviumOfficial</a> - gunna try to make
+            the festival set and side show sets quite a bit different 🤟🏻 <a
+              href="https://t.co/860OHj6xga">https://t.co/860OHj6xga</a></p>&mdash; Paolo Gregoletto (@TriviumPaolo) <a
+            href="https://twitter.com/TriviumPaolo/status/1627964657909616640?ref_src=twsrc%5Etfw">21 de febrero de
+            2023</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="./images/trivium.jpg" alt="Generic placeholder image" width="140"
+          height="140">
+        <h5>Trivium</h5>
+        <blockquote class="twitter-tweet" data-lang="es" data-theme="dark">
+          <p lang="en" dir="ltr">North America! We are returning this Spring and joining forces with <a
+              href="https://twitter.com/BEARTOOTHband?ref_src=twsrc%5Etfw">@BEARTOOTHband</a> for a co-headline tour
+            with special guests <a href="https://twitter.com/MalevolenceRiff?ref_src=twsrc%5Etfw">@MalevolenceRiff</a>
+            and <a href="https://twitter.com/AtypesCollide?ref_src=twsrc%5Etfw">@AtypesCollide</a> presented by <a
+              href="https://twitter.com/KNOTFEST?ref_src=twsrc%5Etfw">@KNOTFEST</a> Roadshow! <br><br>Tickets + VIP go
+            on sale this Friday at 10am local: <a href="https://t.co/dKqNGbifZY">https://t.co/dKqNGbifZY</a> <a
+              href="https://t.co/oDKjqc9zcV">pic.twitter.com/oDKjqc9zcV</a></p>&mdash; Trivium (@TriviumOfficial) <a
+            href="https://twitter.com/TriviumOfficial/status/1620436963579891716?ref_src=twsrc%5Etfw">31 de enero de
+            2023</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <hr class="mb-4">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="card shadow-sm align-items-center text-bg-dark">
+        <img class ="img-fluid" src="./images/Until_the_World_Goes_Cold.jpg" alt="album" />
+        <small class="text-white text-bg-dark justify-content-center">Until The World Goes Cold</small>
+        <div class="card-body text-bg-dark">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="">
+              <audio controls>
+                <source class="playSound" src="./audio_files/Trivium - Until The World Goes Cold [OFFICIAL VIDEO].mp3"
+                  type="audio/mp3">
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow-sm align-items-center text-bg-dark">
+        <img class ="img-fluid" src="./images/Strife_(Trivium).jpg" alt="album" />
+        <small class="text-white text-bg-dark justify-content-center">Strife</small>
+        <div class="card-body text-bg-dark">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="">
+              <audio controls>
+                <source class="playSound" src="./audio_files/Trivium - Strife [OFFICIAL VIDEO].mp3"
+                  type="audio/mp3">
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow-sm align-items-center text-bg-dark">
+        <img class ="img-fluid" src="./images/The_Heart_from_Your_Hate.jpg" alt="album" />
+        <small class="text-white text-bg-dark justify-content-center">The Heart From Your Hate</small>
+        <div class="card-body text-bg-dark">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="">
+              <audio controls>
+                <source class="playSound" src="./audio_files/Trivium - The Heart From Your Hate [OFFICIAL VIDEO].mp3"
+                  type="audio/mp3">
+              </audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="mb-4">
+</main>
+    <!-- SCRIPT DE BOOTSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+
+</body>
+
+<!-- FOOTER -->
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-3 border-top border-bottom">
+  <div class="col-md-4 d-flex text-center">
+    <span class="mb-3 mb-md-0">Desarrollado por Gregory Lara <br> Curso Desarrollo Web CoderHouse <br> &copy;2023 Todos
+      los derechos reservados</span>
+  </div>
+
+  <ul class="nav ms-4 col-md-4 justify-content-end list-unstyled d-flex">
+    <li class="ms-2 me-4">
+      <a class="text-muted" href="https://www.facebook.com/Trivium/" target="_blank" rel="noopener noreferrer"><img
+          src="./images/facebook.png" alt="facebook" /></a>
+    </li>
+    <li class="me-4">
+      <a class="text-muted" href="https://www.pinterest.com/ryanstuard1/trivium/" target="_blank"
+        rel="noopener noreferrer"><img src="./images/pinterest.png" alt="pinterest" /></a>
+    </li>
+    <li class="me-3">
+      <a class="text-muted" href="https://twitter.com/TriviumOfficial" target="_blank" rel="noopener noreferrer"><img
+          src="./images/twitter.png" alt="twitter" /></a>
+    </li>
+  </ul>
+</footer>
+<!-- FIN DEL FOOTER -->
+
+</html>

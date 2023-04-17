@@ -1,0 +1,50 @@
+.navbar{
+    .navbar-brand{
+        color: white;
+        padding: 0.5rem 1rem;
+      
+        
+        transition: color 0.3s ease-in-out;
+      
+        
+        &:hover {
+          color: $color_2;
+        }
+    }
+
+    div{
+
+        button{
+            color:$botones;
+        } 
+    }
+
+    ul li a{
+        color: white;
+        padding: 0.5rem 1rem;
+      
+        
+        transition: color 0.3s ease-in-out;
+      
+        
+        &:hover {
+          color: $color_2;
+        }
+    }
+    form button{
+        border-color: $color_2;
+        color: white;
+        padding: 0.5rem 1rem;
+      
+        
+        transition: color 0.3s ease-in-out;
+      
+        
+        &:hover {
+          background-color: $color_2;
+        }
+    }
+}
+
+
+
